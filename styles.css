@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: ;
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid hotpink;
@@ -75,3 +74,4 @@ button:hover {
     background-color: purple;
     color: gold;
 }
+
