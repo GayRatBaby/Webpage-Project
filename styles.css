@@ -9,22 +9,25 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1f2937;
+    gap: 30%;
+    height: 100px;
 }
 
 .logo {
     display: flex;
     height: 100px;
-    margin: -10px 0 -10px 16px;
+    margin: -10px 0 -10px 0;
 }
 
 a, ul {
     list-style: none;
     text-decoration: none;
     display: flex;
-    margin: 16px;
+    gap: 16px;
     color: white;
+    font-size: 18px;
 }
 
 a:hover {
@@ -32,33 +35,31 @@ a:hover {
     font-weight: bold;
 }
 
-p, h1 {
-    color: white;
-}
-
-h1 {
-    font-weight: bolder;
-}
-
 .info {
     display: flex;
     background-color: #1f2937;
-    padding: 10%;
+    padding-bottom: 10%;
     gap: 100px;
     justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .text {
     width: 300px;
+    color: white;
+    font-size: 18px;
 }
 
-.image img {
+h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+div.image > img {
     display: flex;
-    flex: 0 0 auto;
     width: 350px;
     height: 200px;
-    align-self: center;
-    justify-content: center;
 }
 
 button {
@@ -66,7 +67,6 @@ button {
     border-radius: 6px;
     color: white;
     padding: 4px 16px 4px 16px;
-    margin-top: 16px;
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -75,3 +75,44 @@ button:hover {
     color: gold;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10%;
+    gap: 22px;
+    height: 300px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    gap: 32px;
+}
+
+div.image-and-text > img {
+    display: flex;
+    flex: 1 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 12px;
+    transition: width 0.2s, height 0.2s;
+}
+
+div.image-and-text > img:hover {
+    width: 200px;
+    height: 200px;
+}
+
+div.image-and-text > p {
+    font-size: 14px;
+    text-align: center;
+}
