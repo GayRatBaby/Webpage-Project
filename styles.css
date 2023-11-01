@@ -12,7 +12,7 @@ body {
     justify-content: center;
     background-color: #1f2937;
     gap: 30%;
-    height: 100px;
+    height: 80px;
 }
 
 .logo {
@@ -163,4 +163,14 @@ div.image-and-text > p {
     align-self: center;
     margin-left: 120px;
     border: 1px solid white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 18px;
+    color: white;
+    background-color: #1f2937;
 }
