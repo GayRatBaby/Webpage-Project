@@ -63,6 +63,7 @@ div.image > img {
 }
 
 button {
+    max-height: 30px;
     background-color: #3882f6;
     border-radius: 6px;
     color: white;
@@ -141,3 +142,25 @@ div.image-and-text > p {
     font-size: 24px;
 }
 
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 300px;
+}
+
+.take-action {
+    display: flex;
+    background-color: #3882f6;
+    padding: 22px 90px 22px 90px;
+    border-radius: 6px;
+    line-height: 4px;
+    color: white;
+}
+
+.take-action > button {
+    align-self: center;
+    margin-left: 120px;
+    border: 1px solid white;
+}
